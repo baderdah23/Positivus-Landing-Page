@@ -10,12 +10,12 @@ const Header = () => {
 
   return (
     <header className="text-h4-mob lg:text-h4 relative z-[100] mt-6 flex h-12 items-center justify-between md:mt-12 md:h-17">
-      <div className="flex h-full items-end">
+      <div className="flex h-full lg:items-end">
         <Logo variant="black" />
       </div>
 
       {/* Desktop Navigation */}
-      <nav className="hidden items-center gap-6 lg:gap-10 lg:flex">
+      <nav className="hidden items-center gap-6 lg:flex lg:gap-10">
         <a href="#" className="hover:text-tertiary">
           About us
         </a>

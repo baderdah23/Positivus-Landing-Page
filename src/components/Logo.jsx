@@ -2,7 +2,7 @@ const Logo = ({ variant }) => {
   return (
     <>
       {variant === "black" ? (
-        <a href="#" className="md:45 h-9 w-35 lg:w-55">
+        <a href="#" className="h-9 w-35 md:w-45 lg:w-55">
           <svg
             viewBox="0 0 220 36"
             fill="none"
