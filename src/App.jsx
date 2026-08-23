@@ -1,7 +1,7 @@
 import { lazy } from "react";
 import Hero from "./components/Hero";
 const Services = lazy(() => import("./components/Services"));
-const img = lazy(() => import("./assets/image/Frame 19.webp"));
+import img from "./assets/image/Frame 19.webp";
 const Button = lazy(() => import("./components/Button"));
 const Heading = lazy(() => import("./components/Heading"));
 const Link = lazy(() => import("./components/Link"));
@@ -17,8 +17,8 @@ function App() {
       <Hero />
       <Services />
       <div className="my-25 flex items-center md:h-99">
-        <div className="bg-light-gray flex h-[347px] w-full items-center justify-between rounded-[45px]">
-          <div className="flex w-125 flex-col justify-center gap-6.5 pl-5 md:items-center lg:items-start lg:pl-15">
+        <div className="bg-light-gray flex h-[347px] w-full items-center justify-center rounded-[45px] lg:justify-between">
+          <div className="flex w-125 flex-col items-center justify-center gap-6.5 pl-5 lg:items-start lg:pl-15">
             <h3 className="text-h3-mob lg:text-h3">Let’s make things happen</h3>
             <p className="text-p-mob lg:text-p md:text-center lg:text-start">
               Contact us today to learn more about how our digital marketing

@@ -86,14 +86,13 @@ const Hero = () => {
             </p>
             <Button className="w-fit">Book a consultation</Button>
           </div>
-          <div className="-order-1 w-full max-w-[400px] flex-1 md:order-2 md:max-w-none">
+          <div className="-order-1 flex-1 md:order-2 md:max-w-none">
             <img
               src={heroImage}
               alt="hero image"
               fetchPriority="high"
               width={600}
-              height={524}
-              className="h-auto w-full"
+              height={515}
             />
           </div>
         </div>
