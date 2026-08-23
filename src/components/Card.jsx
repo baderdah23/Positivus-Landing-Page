@@ -19,6 +19,8 @@ const Card = ({ img, heading, link, bg }) => {
           src={img}
           alt="services image"
           loading="lazy"
+          width={210}
+          height={160}
         />
         <Link variant={link.variant} text={link.text} />
       </div>
@@ -27,6 +29,8 @@ const Card = ({ img, heading, link, bg }) => {
         src={img}
         alt="services image"
         loading="lazy"
+        width={210}
+        height={170}
       />
     </div>
   );

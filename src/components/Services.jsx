@@ -1,11 +1,11 @@
 import Card from "./Card";
 import Heading from "./Heading";
-import servicesImg1 from "../assets/image/services1.png";
-import servicesImg2 from "../assets/image/services2.png";
-import servicesImg3 from "../assets/image/services3.png";
-import servicesImg4 from "../assets/image/services4.png";
-import servicesImg5 from "../assets/image/services5.png";
-import servicesImg6 from "../assets/image/services6.png";
+import servicesImg1 from "../assets/image/services1.webp";
+import servicesImg2 from "../assets/image/services2.webp";
+import servicesImg3 from "../assets/image/services3.webp";
+import servicesImg4 from "../assets/image/services4.webp";
+import servicesImg5 from "../assets/image/services5.webp";
+import servicesImg6 from "../assets/image/services6.webp";
 
 const servicesList = [
   {

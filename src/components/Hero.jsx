@@ -1,66 +1,66 @@
 import LogoLoop from "./LogoLoop";
 
-import heroImage from "../assets/image/hero.png";
-import company1 from "../assets/logo/Company logo.png";
-import company2 from "../assets/logo/Company1 logo .png";
-import company3 from "../assets/logo/Company2 logo .png";
-import company4 from "../assets/logo/Company3 logo .png";
-import company5 from "../assets/logo/Company4 logo .png";
-import company6 from "../assets/logo/Company6 logo .png";
+import heroImage from "../assets/image/hero.webp";
+import company1 from "../assets/logo/Company logo.webp";
+import company2 from "../assets/logo/Company1 logo .webp";
+import company3 from "../assets/logo/Company2 logo .webp";
+import company4 from "../assets/logo/Company3 logo .webp";
+import company5 from "../assets/logo/Company4 logo .webp";
+import company6 from "../assets/logo/Company6 logo .webp";
 import Button from "./Button";
 import Header from "./Header";
 
 const techLogos = [
   {
-    node: <img src={company1} alt="logo Company 1" />,
+    node: <img src={company1} alt="logo Company 1" width={124} height={48} />,
     title: "logo1",
   },
   {
-    node: <img src={company2} alt="logo Company 2" />,
+    node: <img src={company2} alt="logo Company 2" width={124} height={48} />,
     title: "logo2",
   },
   {
-    node: <img src={company3} alt="logo Company 3" />,
+    node: <img src={company3} alt="logo Company 3" width={124} height={48} />,
     title: "logo3",
   },
   {
-    node: <img src={company4} alt="logo Company 4" />,
+    node: <img src={company4} alt="logo Company 4" width={124} height={48} />,
     title: "logo4",
   },
   {
-    node: <img src={company5} alt="logo Company 5" />,
+    node: <img src={company5} alt="logo Company 5" width={124} height={48} />,
     title: "logo5",
   },
   {
-    node: <img src={company6} alt="logo Company 6" />,
+    node: <img src={company6} alt="logo Company 6" width={124} height={48} />,
     title: "logo6",
   },
 ];
 const techLogosMob1 = [
   {
-    node: <img src={company1} alt="logo Company 1" />,
+    node: <img src={company1} alt="logo Company 1" width={124} height={48} />,
     title: "logo1",
   },
   {
-    node: <img src={company2} alt="logo Company 2" />,
+    node: <img src={company2} alt="logo Company 2" width={124} height={48} />,
     title: "logo2",
   },
   {
-    node: <img src={company3} alt="logo Company 3" />,
+    node: <img src={company3} alt="logo Company 3" width={124} height={48} />,
     title: "logo3",
   },
 ];
 const techLogosMob2 = [
   {
-    node: <img src={company4} alt="logo Company 4" />,
+    node: <img src={company4} alt="logo Company 4" width={124} height={48} />,
     title: "logo4",
   },
   {
-    node: <img src={company5} alt="logo Company 5" />,
+    node: <img src={company5} alt="logo Company 5" width={124} height={48} />,
     title: "logo5",
   },
   {
-    node: <img src={company6} alt="logo Company 6" />,
+    node: <img src={company6} alt="logo Company 6" width={124} height={48} />,
     title: "logo6",
   },
 ];
@@ -91,6 +91,8 @@ const Hero = () => {
               src={heroImage}
               alt="hero image"
               fetchPriority="high"
+              width={600}
+              height={524}
               className="h-auto w-full"
             />
           </div>

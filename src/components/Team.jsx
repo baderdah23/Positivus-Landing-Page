@@ -1,8 +1,8 @@
 import Heading from "./Heading";
 import PersonCard from "./PersonCard";
-import person1 from "../assets/person/Picture.png";
-import person2 from "../assets/person/Picture (1).png";
-import person3 from "../assets/person/Picture (2).png";
+import person1 from "../assets/person/Picture.webp";
+import person2 from "../assets/person/Picture (1).webp";
+import person3 from "../assets/person/Picture (2).webp";
 import Button from "./Button";
 
 const teamMembers = [

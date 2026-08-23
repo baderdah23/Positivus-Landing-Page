@@ -1,14 +1,15 @@
+import { lazy } from "react";
 import Hero from "./components/Hero";
-import Services from "./components/Services";
-import img from "./assets/image/Frame 19.png";
-import Button from "./components/Button";
-import Heading from "./components/Heading";
-import Link from "./components/Link";
-import Process from "./components/Process";
-import Team from "./components/Team";
-import ContactUs from "./components/ContactUs";
-import Footer from "./components/Footer";
-import Testimonials from "./components/Testimonials";
+const Services = lazy(() => import("./components/Services"));
+const img = lazy(() => import("./assets/image/Frame 19.webp"));
+const Button = lazy(() => import("./components/Button"));
+const Heading = lazy(() => import("./components/Heading"));
+const Link = lazy(() => import("./components/Link"));
+const Process = lazy(() => import("./components/Process"));
+const Team = lazy(() => import("./components/Team"));
+const ContactUs = lazy(() => import("./components/ContactUs"));
+const Footer = lazy(() => import("./components/Footer"));
+const Testimonials = lazy(() => import("./components/Testimonials"));
 
 function App() {
   return (
