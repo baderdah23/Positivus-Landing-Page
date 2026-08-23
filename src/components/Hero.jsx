@@ -74,7 +74,7 @@ const Hero = () => {
         id="hero"
         className="mt-10 mb-20 flex w-full flex-col gap-10 md:mt-17.5 md:mb-35 md:gap-17.5"
       >
-        <div className="mb-5 flex flex-col items-center gap-10 md:flex-row md:gap-20">
+        <div className="flex flex-col items-center gap-10 md:flex-row md:gap-20">
           <div className="flex flex-1 flex-col items-center gap-6 md:items-start md:gap-9 md:text-left">
             <h1 className="text-h1-mob lg:text-h1 leading-tight font-bold">
               Navigating the digital landscape for success
@@ -86,7 +86,7 @@ const Hero = () => {
             </p>
             <Button className="w-fit">Book a consultation</Button>
           </div>
-          <div className="-order-1 flex-1 md:order-2 md:max-w-none">
+          <div className="-order-1 flex-1 md:order-2">
             <img
               src={heroImage}
               alt="hero image"
@@ -97,7 +97,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="relative mt-6 hidden h-12 overflow-hidden md:block">
+        <div className="relative hidden h-12 overflow-hidden md:block">
           <LogoLoop
             logos={techLogos}
             speed={65}
